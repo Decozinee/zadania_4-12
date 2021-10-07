@@ -1,0 +1,21 @@
+<html>
+<head>
+<script type="text/javascript">
+    var D1_kon=prompt("Podaj numer dnia(mniejszy)=","");
+    var D2_kon=prompt("Podaj drugi numer dnia(większy)","");
+    var suma;
+    var sec;
+    var a=parseFloat(D1_kon);
+    var b=parseFloat(D2_kon);
+    suma=b-a;
+    sec=suma*86400;
+    document.write("<div style=color:green;font-size:38>Ilość Dni="+b+" - "+a+"  = "+suma+"<br></div>");
+    document.write("<div style=color:green;font-size:38>Ilość Sekund="+suma+" * "+86400+"  = "+sec+"<br></div>");
+ </script>
+ </head>
+ <body>
+    
+    <input type="button" onclick="seconds()" value="Oblicz" />  
+    
+</body>
+</html>
