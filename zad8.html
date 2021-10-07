@@ -3,12 +3,12 @@
  <script language="JavaScript">
 function seconds()
 {
-    var D1_WIT=prompt("Podaj numer dnia(mniejszy)=","");
-    var D2_WIT=prompt("Podaj drugi numer dnia(większy)","");
+    var D1_KON=prompt("Podaj numer dnia(mniejszy)=","");
+    var D2_KON=prompt("Podaj drugi numer dnia(większy)","");
     var suma;
     var sec;
-    var a=parseFloat(D1_WIT);
-    var b=parseFloat(D2_WIT);
+    var a=parseFloat(D1_KON);
+    var b=parseFloat(D2_KON);
     suma=b-a;
     sec=suma*86400;
     document.write("<div style=color:green;font-size:38>Ilość Dni="+b+" - "+a+"  = "+suma+"<br></div>");
@@ -19,7 +19,7 @@ function seconds()
  </head>
  <body>
     
-    <input type="button" onclick="seconds()" value="Oblicz" />  
+
     
 </body>
 </html>
